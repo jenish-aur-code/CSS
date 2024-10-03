@@ -1,0 +1,33 @@
+h1 {
+  text-align: center;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: rgb(93, 196, 230);
+  margin: 100px auto;
+
+  /* transform-origin: center; */
+  transform-origin: top right;
+  transition: transform 1s ease-in;
+}
+
+.box:hover {
+  /* transform: rotate(360deg); */
+
+  /* transform: scale(2); */
+  /* transform: scale(1.5 , 2);
+    transform: scaleX(2);
+    transform: scaleY(3); */
+
+  transform: translate(200px, 100px);
+  /*  transform: translateX(200px);
+    transform: translateX(-200px);
+    transform: translatey(100px);
+    transform: translatey(-100px);  */
+
+  /* transform: skew(10deg,10deg); */
+  /* transform: skewX(50deg);
+    transform: skewY(60deg); */
+}

@@ -1,0 +1,23 @@
+/* #### first & first-of-type child #### */
+
+/* p:first-child{
+    color: blue;
+    background-color: antiquewhite;
+} */
+
+p:first-of-type {
+  color: antiquewhite;
+  background-color: black;
+}
+
+/* ######## last & last-of-type child #### */
+
+/* p:last-child{
+    color: blue;
+    background-color: rgb(180, 208, 208);
+} */
+
+p:last-of-type {
+  color: red;
+  background-color: bisque;
+}

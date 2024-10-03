@@ -1,0 +1,44 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* ###############   this is flex-container ( parent ) ################# */
+
+.box-wrapper {
+  border: 10px solid red;
+  display: flex;
+
+  flex-wrap: wrap;
+  /* flex-direction: row; */
+
+  flex-direction: column;
+}
+
+/* ###############   this is flex-items ( child of class container)   ############### */
+
+/* flex basis work on main-axis */
+
+/* flex basis >>> height,width  */
+
+.box {
+  border: 2px solid black;
+  padding: 5px;
+
+  flex-basis: 500px;
+}
+
+.box1 {
+  background-color: lightblue;
+}
+.box2 {
+  background-color: lightcoral;
+}
+.box3 {
+  background-color: lightcyan;
+}
+.box4 {
+  background-color: lightgoldenrodyellow;
+}
+.box5 {
+  background-color: lightgray;
+}

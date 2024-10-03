@@ -1,0 +1,35 @@
+/* ------> mainly use in body or root font size */
+
+h2 {
+  /* font-size: 100%;             by default 16px==100%     */
+  /* font-size: 200px; */
+  font-size: 150%;
+  border: 2px solid red;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+div {
+  /* font-size: 10px;                           10px equal to 62.5% of default font-size ,, 10px == 62.5%  */
+  /* font-size: 62.5%; */
+  font-size: 10px;
+  border: 2px solid black;
+
+  width: 50%;
+}
+
+p {
+  /* font-size: 100%;                   p is a child of Div therefore p font-size == Div font-size */
+  border: 2px solid red;
+  /* font-size: 200%;
+    background-color: antiquewhite;
+    width: 50%;
+    margin: 5px auto; */
+  /* margin-left: 25%; */
+
+  font-size: 300%;
+  width: 50%;
+  margin: 5px auto;
+  text-align: center;
+}

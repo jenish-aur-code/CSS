@@ -1,0 +1,26 @@
+/* #############  viewport width ######### */
+
+/* .box {
+  border: 2px solid red;
+  width: 100vw;
+  height: 100px;
+  background-color: aquamarine;
+} */
+
+/* ##############   viewport height ########## */
+
+.box {
+  height: 100vh;
+  border: 2px solid royalblue;
+  background-color: blanchedalmond;
+}
+
+/* #########  Vmin , Vmax ########### */
+
+/* 
+.box{
+    height: 100vmin;
+    height: 100vmax;
+    border: 2px solid royalblue;
+    background-color: blanchedalmond;
+} */

@@ -1,0 +1,24 @@
+/* -----> mainly em use in padding & margin */
+
+:root {
+  font-size: 62.5%;
+}
+
+.box {
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 2em;
+  /* border == border size * font size(in px)      in px*/
+  border: 2em solid red;
+
+  /* padding == padding size * font size(in px)    in px */
+  padding: 3em;
+}
+
+p {
+  /* P is child of div therefore P consider font size of DIV  */
+
+  border: 2em solid black;
+}

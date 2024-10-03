@@ -1,0 +1,53 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* ###############   this is flex-container ( parent ) ################# */
+
+.box-wrapper {
+  border: 10px solid red;
+  display: flex;
+  height: 500px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ###############   this is flex-items ( child of class container)   ############### */
+
+/* order is apply on flex-item */
+
+/* jeno order less (ochho) ae main-axis start thai tyathi main-axis end sudhi arrange thai  */
+
+/* order less apply first  */
+
+/* order apply main-axis start to main-axis end */
+
+.box {
+  border: 2px solid black;
+  padding: 5px;
+
+  width: 400px;
+}
+
+.box1 {
+  background-color: lightblue;
+
+  order: 3;
+}
+.box2 {
+  background-color: lightcoral;
+
+  order: 5;
+}
+.box3 {
+  background-color: lightcyan;
+
+  order: 0;
+}
+.box4 {
+  background-color: lightgoldenrodyellow;
+}
+.box5 {
+  background-color: lightgray;
+}

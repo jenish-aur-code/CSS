@@ -1,0 +1,15 @@
+/* ######### n-th & nth-of-type  child ########## */
+
+/* li:nth-child(2){
+    color: rgb(113, 163, 63);
+    background-color: rgb(249, 249, 6);
+} */
+
+/* li:nth-child(2n){
+    color: red;
+} */
+
+li:nth-of-type(2) {
+  color: blueviolet;
+  background-color: antiquewhite;
+}

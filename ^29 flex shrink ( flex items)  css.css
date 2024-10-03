@@ -1,0 +1,50 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  box-sizing: border-box;
+}
+
+/* ###############   this is flex-container ( parent ) ################# */
+
+.box-wrapper {
+  border: 10px solid red;
+  display: flex;
+  max-width: 1200px;
+}
+
+/* ###############   this is flex-items ( child of class container)   ############### */
+
+/* container ni space  items adjust kare */
+
+/* aa space flex-shrink na ration ma adjust thai*/
+
+/* jeno flex-shrink vadhare te item ni size ochhi */
+
+.box {
+  flex-basis: 600px;
+
+  /* flex-shrink: 1; */
+
+  /* flex: 1 2 400px;                first value = flex-grow ,, second value == flex-shrink ,, 3rd value == flex-basis  */
+}
+
+.box1 {
+  background-color: lightblue;
+
+  flex-shrink: 3;
+}
+.box2 {
+  background-color: lightcoral;
+
+  flex-shrink: 2;
+}
+.box3 {
+  background-color: lightcyan;
+
+  flex-shrink: 1;
+}
+.box4 {
+  background-color: lightgoldenrodyellow;
+}
+.box5 {
+  background-color: lightgray;
+}

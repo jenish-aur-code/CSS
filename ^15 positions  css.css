@@ -1,0 +1,77 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+/* #######  static , relative , absolute , fixed , z-index   ########## */
+
+.container {
+  width: 800px;
+  border: 10px solid red;
+  margin: 50px 0px;
+  /* position: absolute;
+  top: 200px;
+  left: 500px; */
+}
+
+.container h1 {
+  border: 4px solid red;
+  background-color: antiquewhite;
+
+  /* position: static;                       static -- this is by default browser position */
+
+  /* position: relative;                    relative -- this is consider only parent area  for position change
+    top: 60px;
+    left: 50px; */
+
+  /* position: absolute;                       absolute -- this is consider browser page for position change 
+    top: 0px;
+    left: 0px; */
+
+  /* position: relative;                             z-index --
+    top: 150px;
+    z-index: -1; */
+}
+
+.container h3 {
+  background-color: aquamarine;
+  color: black;
+
+  /* position: fixed;                                    fixed -- fix the element in webpage
+    top: 0px;
+    left: 0px; */
+}
+
+.container p {
+  border: 4px solid green;
+  background-color: rgb(255, 235, 205);
+}
+
+/* ##########     sticky    ############# */
+
+div + h3 {
+  background-color: aquamarine;
+  color: black;
+
+  position: sticky;
+  top: 0px;
+}
+
+/* ###########    transform - translate ( center )  #####     */
+
+.center {
+  width: 800px;
+  height: 500px;
+  border: 10px solid red;
+  margin: 50px 0px;
+  position: relative;
+}
+
+.center h1 {
+  border: 4px solid red;
+  background-color: antiquewhite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

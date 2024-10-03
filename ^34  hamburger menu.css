@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+li {
+  list-style: none;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.hamburger {
+  position: relative;
+}
+
+.hamburger input[type="checkbox"] {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  z-index: 5;
+  opacity: 0;
+}
+
+.hamburger-line {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 23px;
+  left: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.hamburger-line .line {
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: black;
+}
+
+/* jyare checkbox click thai tyare menu-item select thavi pade  */
+
+.menu-item {
+  transform: translateX(-110%);
+  transition: transform 0.4s ease-in-out;
+  padding-top: 80px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  max-width: 300px;
+  width: 90%;
+  margin-top: -15px;
+  margin-left: -10px;
+  color: white;
+  background: #232323;
+}
+
+.menu-item li:hover {
+  color: orange;
+  font-size: 1.8rem;
+}
+
+.hamburger input[type="checkbox"]:checked ~ .menu-item {
+  transform: translateX(0%);
+}
+
+.hamburger input[type="checkbox"]:checked ~ .hamburger-line .line {
+  background: white;
+  transition: transform 0.4s ease-in-out;
+}
+
+.hamburger-line .line1 {
+  transform-origin: center left;
+}
+
+.hamburger-line .line3 {
+  transform-origin: center left;
+}
+
+.hamburger input[type="checkbox"]:checked ~ .hamburger-line .line1 {
+  transform: rotate(45deg);
+}
+
+.hamburger input[type="checkbox"]:checked ~ .hamburger-line .line2 {
+  display: none;
+}
+
+.hamburger input[type="checkbox"]:checked ~ .hamburger-line .line3 {
+  transform: rotate(-45deg);
+}

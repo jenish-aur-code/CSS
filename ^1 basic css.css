@@ -1,0 +1,125 @@
+/* apply css */
+/* css color */
+
+/* *{
+    color: aquamarine;
+ } */
+
+h3 {
+  color: #f72d81;
+  background-color: black;
+}
+
+/* css font using google font */
+
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
+
+.font {
+  font-family: "Amatic SC", cursive;
+}
+
+/* css id & class */
+
+/* ###   inline style attribute >>> id selector >>> class selector >>> element selector  ##### */
+
+#heading {
+  color: aqua;
+}
+
+.text-color {
+  color: rgb(11, 9, 9);
+}
+
+.bg-color {
+  background-color: aquamarine;
+}
+
+.text-red {
+  color: rgb(165, 11, 11);
+}
+
+.para {
+  color: #f72d81;
+  background-color: rgb(4, 4, 82);
+}
+
+/* somr more css selectors */
+
+header {
+  background-color: #f0ebeb;
+}
+
+section.my-content {
+  background-color: #f2e9e9;
+}
+
+/* p{
+    color: red;
+} */
+
+header p {
+  color: rgb(241, 6, 6);
+}
+
+ul li a {
+  color: rgb(117, 117, 192);
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: square;
+}
+/* 
+section.my-content h2{
+    color: rgb(39, 200, 200);
+} */
+section h3 {
+  color: red;
+  background-color: aquamarine;
+}
+
+section.my-content > h2 {
+  color: green;
+}
+
+h3 + p {
+  color: green;
+}
+
+ul + p {
+  color: rgb(245, 6, 209);
+}
+
+/* some attribute */
+
+input[type="password"] {
+  color: green;
+  background-color: #f72d81;
+}
+
+/* input[type ="text"]{
+    color: red;
+    background-color: #f2e9e9;
+} */
+
+input[type*="t"] {
+  color: red;
+  background-color: antiquewhite;
+}
+
+a[href ="https://google.co.in"]
+{
+  color: rgb(30, 17, 17);
+}
+
+a[href*=".uk"] {
+  color: rgb(11, 92, 92);
+}
+
+a[href*=".com"] {
+  color: red;
+}

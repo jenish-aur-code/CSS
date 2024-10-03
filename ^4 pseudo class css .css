@@ -1,0 +1,50 @@
+/* ######### pseudo class [link,visited,hover,active] ########## */
+
+a {
+  display: block;
+  margin-top: 10px;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: aqua;
+}
+
+a:hover {
+  color: green;
+}
+
+a:active {
+  color: blue;
+}
+
+p {
+  color: blue;
+}
+
+p:hover {
+  background-color: antiquewhite;
+  color: black;
+}
+
+/* ######### pseudo class   [focus,required ] ######### */
+
+input:focus {
+  padding: 5px;
+  outline: none;
+  border: 2px solid red;
+  color: gold;
+}
+
+input:required {
+  color: black;
+  border: 3px dotted green;
+}
+
+button:hover {
+  color: red;
+  border: 2px solid blue;
+}

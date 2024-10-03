@@ -1,0 +1,30 @@
+/* ########  1rem == font-size of root(html)  ########## */
+
+/* -----> mainly rem use in font size of element  */
+
+/* html{
+    font-size: 10px;
+} */
+
+:root {
+  /* font-size: 10px;                    10px == 62.5%  because  16px == 100% */
+  font-size: 62.5%;
+  /* font-size: 20px; */
+}
+
+h1 {
+  font-size: 3.2rem;
+  width: 50rem;
+  border: 0.5rem solid black;
+}
+
+.box {
+  /* font-size: 1rem;                     1rem == font-size of root(html)             */
+  font-size: 2rem;
+}
+
+.text {
+  font-size: 3rem;
+  border: 0.5rem solid red;
+  padding: 2rem;
+}

@@ -1,0 +1,19 @@
+/* ###### pseudo class   [not , root , empty]  #########  */
+
+body :not(p) {
+  color: blue;
+  background-color: antiquewhite;
+}
+
+div:empty {
+  color: red;
+  border: 3px solid blue;
+  height: 200px;
+  width: 200px;
+  background-color: black;
+}
+
+/* :root{
+    color: red;
+    background-color: aquamarine;
+} */

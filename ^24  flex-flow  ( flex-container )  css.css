@@ -1,0 +1,47 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* ###############   this is flex-container ( parent ) ################# */
+
+.box-wrapper {
+  border: 10px solid red;
+  display: flex;
+
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+
+  /* flex-flow: row wrap; */
+  /* flex-flow: row wrap-reverse; */
+  /* flex-flow: row-reverse wrap; */
+
+  height: 600px;
+  flex-flow: column wrap;
+  /* flex-flow: column wrap-reverse; */
+  /* flex-flow: column-reverse wrap; */
+}
+
+/* ###############   this is flex-items ( child of class container)   ############### */
+
+.box {
+  border: 2px solid black;
+  padding: 5px;
+
+  width: 400px;
+}
+
+.box1 {
+  background-color: lightblue;
+}
+.box2 {
+  background-color: lightcoral;
+}
+.box3 {
+  background-color: lightcyan;
+}
+.box4 {
+  background-color: lightgoldenrodyellow;
+}
+.box5 {
+  background-color: lightgray;
+}

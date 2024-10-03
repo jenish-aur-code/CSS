@@ -1,0 +1,60 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+/* ###############   this is flex-container ( parent ) ################# */
+
+.box-wrapper {
+  border: 10px solid red;
+  display: flex;
+
+  /* align content apply only cross axis*/
+
+  flex-wrap: wrap;
+  height: 600px;
+
+  /* align-items: flex-start; */
+
+  /* why apply align-content  */
+
+  flex-direction: row;
+  /* align-content: flex-start; */
+  /* align-content: flex-end; */
+  align-content: center;
+  /* align-content: space-between; */
+  /* align-content: space-around; */
+  /* align-content: space-evenly; */
+
+  /* flex-direction: column; */
+  /* align-content: flex-start; */
+  /* align-content: flex-end; */
+  /* align-content: center; */
+  /* align-content: space-between; */
+  /* align-content: space-around; */
+  /* align-content: space-evenly; */
+}
+
+/* ###############   this is flex-items ( child of class container)   ############### */
+
+.box {
+  border: 2px solid black;
+  padding: 5px;
+
+  width: 400px;
+}
+
+.box1 {
+  background-color: lightblue;
+}
+.box2 {
+  background-color: lightcoral;
+}
+.box3 {
+  background-color: lightcyan;
+}
+.box4 {
+  background-color: lightgoldenrodyellow;
+}
+.box5 {
+  background-color: lightgray;
+}
